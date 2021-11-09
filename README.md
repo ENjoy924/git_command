@@ -1,8 +1,8 @@
 # git_command
 git 常用命令大全
 
-1 清除本地未提交的修改
-git checkout . && git clean -xdf
+1 清除本地未提交的修改\n
+git checkout . && git clean -xdf\n
 2 远程覆盖本地
 git fetch --all &&  git reset --hard origin/master && git pull
 3 添加文件
