@@ -56,4 +56,10 @@ git push -u origin master
 13 以后每次推送
 git push origin master
 
+14创建并切换分支
+git checkout -b 名称
+
+15查看当前分支
+git branch
+
 
