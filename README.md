@@ -61,6 +61,8 @@ git push origin master
 
 git checkout -b 名称
 
+git switch -c 名称
+
 15查看当前分支
 
 git branch
@@ -68,6 +70,8 @@ git branch
 15切换分支
 
 git checkout 名称
+
+git switch 名称
 
 16 将分支合并到当前分支
 
