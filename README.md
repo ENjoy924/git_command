@@ -21,4 +21,10 @@ git commit -a
 
 git commit -a -m '信息'
 
-5 
+5 将本地文件回退到上一个版本
+
+git reset --hard HEAD^  
+
+6 将本地文件回退到上3个版本
+
+git reset --hard HEAD~3  
