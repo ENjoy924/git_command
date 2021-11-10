@@ -73,4 +73,5 @@ git checkout 名称
 
 git merge 名称
 
-
+17 删除分支
+git branch -d 名称
