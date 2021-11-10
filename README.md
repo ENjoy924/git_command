@@ -54,12 +54,23 @@ git remote add origin git@github.com:michaelliao/learn-git.git
 git push -u origin master
 
 13 以后每次推送
+
 git push origin master
 
 14创建并切换分支
+
 git checkout -b 名称
 
 15查看当前分支
+
 git branch
+
+15切换分支
+
+git checkout 名称
+
+16 将分支合并到当前分支
+
+git merge 名称
 
 
