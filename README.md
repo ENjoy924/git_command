@@ -88,3 +88,10 @@ git remote
 19显示简短log
 
 git log --graph --pretty=oneline --abbrev-commit
+
+20 提交远程
+
+git push origin(远程分支) master(本地分支)
+
+21 从远程拉取
+git pull
