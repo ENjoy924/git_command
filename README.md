@@ -84,3 +84,7 @@ git branch -d 名称
 18 查看远程库的信息
 
 git remote
+
+19显示简短log
+
+git log --graph --pretty=oneline --abbrev-commit
