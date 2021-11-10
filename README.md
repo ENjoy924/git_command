@@ -36,3 +36,13 @@ git reset --hard '版本号'
 8 查看命令以及提交版本号
 
 git reflog
+
+8 从暂存区恢复readme.txt文件
+
+git checkout -- readme.txt
+
+8 从本地仓库恢复readme.txt文件
+
+git reset HEAD readme.txt
+
+
