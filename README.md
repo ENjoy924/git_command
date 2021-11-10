@@ -28,3 +28,11 @@ git reset --hard HEAD^
 6 将本地文件回退到上3个版本
 
 git reset --hard HEAD~3  
+
+7 将本地文件恢复到某个版本号
+
+git reset --hard '版本号'
+
+8 查看命令以及提交版本号
+
+git reflog
