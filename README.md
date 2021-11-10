@@ -78,4 +78,9 @@ git switch 名称
 git merge 名称
 
 17 删除分支
+
 git branch -d 名称
+
+18 查看远程库的信息
+
+git remote
