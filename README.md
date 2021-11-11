@@ -100,5 +100,5 @@ git pull
 
 21 清除缓存区信息
 
-git checkout -r --cached
+git rm -r --cached
 
