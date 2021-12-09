@@ -107,3 +107,62 @@ git rm -r --cached
 
 docker images
 
+2 启动resitory为python tag为3.6的镜像，并且运行命令/bin/bash
+
+docker run python:3.6 /bin/bash  
+
+docker run -itd python:3.6 /bin/bash   #加-it是交互模式，-d是后台运行
+
+docker run -itd --name p python:3.6 /bin/bash  #--name 给容器起别名
+
+docker run -itd -P python:3.6 python app.py   #-P添加web映射端口
+
+docker run -itd -p 5000:8888 python:3.6 python app.py #-p添加对应映射端口
+
+3 查看docker目前正在运行的容器
+
+docker ps  # 加-a是所有历史记录
+
+docker ps -a
+
+4 停止容器
+
+docker stop 别名
+
+5 拉取镜像
+
+docker pull 镜像名
+
+6 进入容易的交互模式
+
+docker exec -it 容器名 /bin/bash
+
+7 导出容器
+
+docker export 容器名 > tmp.tar
+
+8 导入容器
+
+cat tmp.tar | docker import - python:3.6
+
+9 删除镜像
+
+docker rmi python:3.6
+
+10 删除所有容器的运行记录
+
+docker container prune
+
+11 查看容器映射端口
+
+docker port 容器名
+
+12 查看容器得运行日志
+
+docker logs -f 容器
+
+
+
+
+
+
