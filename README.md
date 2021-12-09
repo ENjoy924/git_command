@@ -102,3 +102,8 @@ git pull
 
 git rm -r --cached
 
+# docker command
+1 查看docker镜像
+
+docker images
+
