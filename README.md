@@ -161,6 +161,10 @@ docker port 容器名
 
 docker logs -f 容器
 
+13 将当前容器保存为一个镜像
+
+docker commit -a '' -m '' id python:3.6  #-a 作者 -m 说明 id:container的id python:3.6 respyity和tag
+
 
 
 
