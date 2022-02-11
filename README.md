@@ -119,6 +119,8 @@ docker run -itd -P python:3.6 python app.py   #-P添加web映射端口
 
 docker run -itd -p 5000:8888 python:3.6 python app.py #-p添加对应映射端口
 
+docker run -itd --gpus all -p 5000:8888 python:3.6 python app.py #--gpus启动gpu
+
 3 查看docker目前正在运行的容器
 
 docker ps  # 加-a是所有历史记录
