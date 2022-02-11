@@ -151,6 +151,8 @@ cat tmp.tar | docker import - python:3.6
 
 docker rmi python:3.6
 
+docker rm 容器名 #删除容器
+
 10 删除所有容器的运行记录
 
 docker container prune
