@@ -102,6 +102,10 @@ git pull
 
 git rm -r --cached
 
+22 从远程git仓库获取单个文件 
+
+git checkout origin/master -- path/folder/filename
+
 # docker command
 1 查看docker镜像
 
