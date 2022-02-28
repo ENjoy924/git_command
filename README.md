@@ -106,6 +106,14 @@ git rm -r --cached
 
 git checkout origin/master -- path/folder/filename
 
+23 将某一个文件的修改设置为不提交
+
+git update-index --assume-unchanged config.php
+
+24 恢复某一个文件的修改为提交
+
+git update-index --no-assume-unchanged config.php
+
 # docker command
 1 查看docker镜像
 
