@@ -116,7 +116,7 @@ git update-index --no-assume-unchanged config.php
 
 25 覆盖上次的提交内容
 
-git commit --amend
+git commit (-a) --amend
 
 # docker command
 1 查看docker镜像
